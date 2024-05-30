@@ -251,6 +251,7 @@ justify-content: center;
 .text{
     width: 40%;
     line-height: 2 ;
+    margin-left: 30px;
 }
 .text h5{
     color: #c20033;
@@ -457,16 +458,18 @@ h2{
     width: 100%; 
      box-shadow: 1px 1px 5px 1px gray;
      border: none;
+     margin-left: 117px;
 }
 #recrutement .groupe {
     display: flex;
     flex-direction: column;
     background-color: var(--rose-fonce);
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
 }
 #recrutement .elements{
     display: flex;
@@ -767,4 +770,24 @@ footer{
     
 }
     
+.color{
+    display: flex;
+    justify-content: center;
+
+}
+.color div{
+    width: 15px;
+    height: 15px;
+    background-color: var(--rouge);
+    margin: 10px;
+    border-radius: 50%;
+}
+.color .colore{
+    width: 50px;
+    border-radius: 20px;
+}
+.color .active {
+    width: 120px;
+    height: 10px;
+    margin-bottom: 50px;
 }
